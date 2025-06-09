@@ -138,13 +138,22 @@ const initializeStorage = () => {
         especialidades: ["Clínico Geral", "Cardiologia", "Pediatria"],
         endereco: "Rua 25 Norte, Lote 2/4 - Águas Claras, Brasília-DF",
         bairro: "Águas Claras",
+<<<<<<< HEAD
         telefone: "(61) 99808-0577",
         whatsapp: "(61) 99808-0577",
+=======
+        telefone: "(61) 3333-1001",
+        whatsapp: "(61) 99999-1001",
+>>>>>>> bd434b6a51269099a057bfa875ae8a5af832f162
         horario: "Seg-Sex: 7h às 19h, Sáb: 8h às 14h",
         descricao:
           "Clínica moderna em Águas Claras com atendimento médico de qualidade. Contamos com profissionais especializados e equipamentos de última geração.",
         avaliacao: 4.8,
+<<<<<<< HEAD
         imagem: "/fachada-noite.jpg",
+=======
+        imagem: "/placeholder.svg?height=300&width=600",
+>>>>>>> bd434b6a51269099a057bfa875ae8a5af832f162
         ativo: true,
         localizacao: {
           latitude: -15.8347,
@@ -158,8 +167,13 @@ const initializeStorage = () => {
         especialidades: ["Ortopedia", "Fisioterapia", "Nutrição"],
         endereco: "Avenida das Araucárias, 4.700 - Águas Claras, Brasília-DF",
         bairro: "Águas Claras",
+<<<<<<< HEAD
         telefone: "(61) 98484-3332",
         whatsapp: "(61) 98484-3332",
+=======
+        telefone: "(61) 3333-1002",
+        whatsapp: "(61) 99999-1002",
+>>>>>>> bd434b6a51269099a057bfa875ae8a5af832f162
         horario: "Seg-Sáb: 6h às 20h",
         descricao:
           "Centro médico especializado em ortopedia e reabilitação. Nossa equipe multidisciplinar oferece tratamentos completos para sua recuperação.",

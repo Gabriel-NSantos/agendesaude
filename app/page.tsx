@@ -39,7 +39,11 @@ export default function Home() {
               </div>
               <div className="mx-auto lg:mx-0 relative">
                 <Image
+<<<<<<< HEAD
                   src="/clinica-girona-pmmt_3.jpg"
+=======
+                  src="/placeholder.svg?height=550&width=550"
+>>>>>>> bd434b6a51269099a057bfa875ae8a5af832f162
                   width={550}
                   height={550}
                   alt="Médicos e pacientes"
@@ -131,7 +135,11 @@ export default function Home() {
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
               <div className="mx-auto lg:mx-0 relative">
                 <Image
+<<<<<<< HEAD
                   src="/foto-homem-branco.jpg"
+=======
+                  src="/placeholder.svg?height=550&width=550"
+>>>>>>> bd434b6a51269099a057bfa875ae8a5af832f162
                   width={550}
                   height={550}
                   alt="Clínicas parceiras"

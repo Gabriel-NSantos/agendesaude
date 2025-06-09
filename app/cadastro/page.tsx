@@ -391,6 +391,11 @@ export default function CadastroPage() {
                         placeholder="Rua, Avenida..."
                         value={formData.endereco}
                         onChange={handleChange}
+<<<<<<< HEAD
+=======
+                        readOnly
+                        className="bg-muted"
+>>>>>>> bd434b6a51269099a057bfa875ae8a5af832f162
                       />
                       {errors.endereco && <p className="text-sm text-red-500">{errors.endereco}</p>}
                     </div>
@@ -414,7 +419,12 @@ export default function CadastroPage() {
                           name="bairro"
                           value={formData.bairro}
                           onChange={handleChange}
+<<<<<<< HEAD
                           placeholder="Digite o bairro"
+=======
+                          readOnly
+                          className="bg-muted"
+>>>>>>> bd434b6a51269099a057bfa875ae8a5af832f162
                         />
                         {errors.bairro && <p className="text-sm text-red-500">{errors.bairro}</p>}
                       </div>
@@ -425,7 +435,12 @@ export default function CadastroPage() {
                           name="cidade"
                           value={formData.cidade}
                           onChange={handleChange}
+<<<<<<< HEAD
                           placeholder="Digite a cidade"
+=======
+                          readOnly
+                          className="bg-muted"
+>>>>>>> bd434b6a51269099a057bfa875ae8a5af832f162
                         />
                       </div>
                       <div className="space-y-2">
@@ -435,7 +450,12 @@ export default function CadastroPage() {
                           name="uf"
                           value={formData.uf}
                           onChange={handleChange}
+<<<<<<< HEAD
                           placeholder="Ex: DF"
+=======
+                          readOnly
+                          className="bg-muted"
+>>>>>>> bd434b6a51269099a057bfa875ae8a5af832f162
                           maxLength={2}
                         />
                       </div>

@@ -41,6 +41,10 @@ import {
 import { Badge } from "@/components/ui/badge"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
+<<<<<<< HEAD
+=======
+import { CepInput } from "@/components/cep-input"
+>>>>>>> bd434b6a51269099a057bfa875ae8a5af832f162
 import { HorarioFuncionamento } from "@/components/horario-funcionamento"
 
 export default function PainelClinicaPage() {
@@ -445,6 +449,7 @@ export default function PainelClinicaPage() {
                       <Input id="whatsapp" name="whatsapp" value={formData.whatsapp} onChange={handleChange} />
                     </div>
                   </div>
+<<<<<<< HEAD
                   <div className="space-y-4">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div className="space-y-2">
@@ -525,6 +530,19 @@ export default function PainelClinicaPage() {
                       </div>
                     </div>
                   </div>
+=======
+                  <CepInput
+                    cep={formData.cep}
+                    endereco={formData.endereco}
+                    numero={formData.numero}
+                    complemento={formData.complemento}
+                    bairro={formData.bairro}
+                    cidade={formData.cidade}
+                    uf={formData.uf}
+                    onChange={handleChange}
+                    onAddressChange={handleAddressChange}
+                  />
+>>>>>>> bd434b6a51269099a057bfa875ae8a5af832f162
                   <HorarioFuncionamento horario={formData.horario} onChange={handleChange} />
                 </CardContent>
                 <div className="mt-4 p-4 bg-blue-50 rounded-lg border border-blue-100 mx-6">

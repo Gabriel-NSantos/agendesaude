@@ -65,7 +65,11 @@ export function CepInput({ value, onChange, onAddressChange, disabled }: CepInpu
 
   return (
     <div className="space-y-2">
+<<<<<<< HEAD
       <Label htmlFor="cep">CEP</Label>
+=======
+      <Label htmlFor="cep">CEP *</Label>
+>>>>>>> bd434b6a51269099a057bfa875ae8a5af832f162
       <div className="relative">
         <Input
           id="cep"
@@ -84,9 +88,12 @@ export function CepInput({ value, onChange, onAddressChange, disabled }: CepInpu
         )}
       </div>
       {error && <p className="text-sm text-red-500">{error}</p>}
+<<<<<<< HEAD
       <p className="text-xs text-muted-foreground">
         Digite o CEP para preenchimento automático ou preencha manualmente os campos abaixo
       </p>
+=======
+>>>>>>> bd434b6a51269099a057bfa875ae8a5af832f162
     </div>
   )
 }
